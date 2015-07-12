@@ -16,3 +16,5 @@ Recreation of @damienbod/AspNet5Watcher using beta5 with [Yeoman generator for A
 
 * Remove unused views and modify `HomeController`
 
+* Update ASP project file adding new dependencies and removing post-build scripts
+
