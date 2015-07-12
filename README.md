@@ -4,8 +4,15 @@ Recreation of @damienbod/AspNet5Watcher using beta5 with [Yeoman generator for A
 
 ## Steps
 
-Scaffold application using `Basic` web application template.
+* Scaffold application using `Basic` web application template.
 
-```bash
-yo aspnet
-```
+ ```bash
+ yo aspnet --grunt
+ ```
+
+* Update `Bower` configuration for different libraries or newer versions.
+
+* Update `NPM` configuration with proper `Grunt` packages
+
+* Remove unused views and modify `HomeController`
+
