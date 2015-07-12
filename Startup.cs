@@ -17,6 +17,10 @@ namespace AspNet5Watcher
 {
     public class Startup
     {
+
+        public IConfiguration Configuration { get; set; }
+
+        
         public Startup(IHostingEnvironment env, IApplicationEnvironment appEnv)
         {
             // Setup configuration sources.
@@ -25,8 +29,6 @@ namespace AspNet5Watcher
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
         }
-
-        public IConfiguration Configuration { get; set; }
 
         // This method gets called by the runtime.
         public void ConfigureServices(IServiceCollection services)

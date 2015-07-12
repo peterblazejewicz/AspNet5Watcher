@@ -1,5 +1,8 @@
 {
   "AppSettings": {
     "SiteTitle": "AspNet5Watcher"
+  },
+  "Development": {
+    "ElasticsearchConnectionString": "http://localhost:9200"
   }
 }
